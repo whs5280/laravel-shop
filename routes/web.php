@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'PagesController@root')->name('root');
+
+//Auth用户认证
+Auth::routes();
+
