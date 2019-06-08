@@ -9,3 +9,10 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.idea/inspectionProfiles/
