@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', 'PagesController@root')->name('root')->middleware('verified');;
+Route::redirect('/', '/products')->name('root')->middleware('verified');;
+Route::get('products', 'ProductsController@index')->name('products.index');
 
 //Auth用户认证
 Auth::routes(['verify' => true]);
