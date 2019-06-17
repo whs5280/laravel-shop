@@ -18,5 +18,6 @@ package-lock.json
 out
 gen
 .idea/inspectionProfiles/
+/public/fonts
 
 
