@@ -54,8 +54,6 @@
 ![7](https://user-images.githubusercontent.com/324764/41385034-c39c59c8-6fab-11e8-899a-5f042fa0bd1d.png)
 
 
-![8](https://user-images.githubusercontent.com/324764/41385035-c414fc84-6fab-11e8-82f6-ff50246a4853.png)
-
 ## 环境需求
 
 * Composer
