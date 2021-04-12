@@ -49,6 +49,9 @@ Route::group(['middleware' => ['auth', 'verified']], function (){
     Route::get('payment/alipay/return', 'PaymentController@alipayReturn')->name('payment.alipay.return');
     Route::post('orders/{order}/apply_refund', 'OrdersController@applyRefund')->name('orders.apply_refund');
     Route::get('payment/alipay/return', 'PaymentController@wechatReturn')->name('payment.wechat.return');
+
+    // 优惠券
+    Route::get('coupon_codes/{code}', 'CouponCodesController@show')->name('coupon_codes.show');
 });
 
 

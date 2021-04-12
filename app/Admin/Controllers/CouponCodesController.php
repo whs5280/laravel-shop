@@ -14,7 +14,7 @@ use Encore\Admin\Form;
 use Encore\Admin\Grid;
 use Encore\Admin\Layout\Content;
 
-class CouponCodesController  extends Controller
+class CouponCodesController extends Controller
 {
     public function index(Content $content)
     {
@@ -49,7 +49,7 @@ class CouponCodesController  extends Controller
         return $grid;
     }
 
-    public function form()
+    protected function form()
     {
         $form = new Form(new CouponCode());
 
