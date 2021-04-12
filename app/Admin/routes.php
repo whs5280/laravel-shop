@@ -23,7 +23,12 @@ Route::group([
     // 订单
     $router->get('orders', 'OrdersController@index')->name('admin.orders.index');
     $router->get('orders/{order}', 'OrdersController@show')->name('admin.orders.show');
+
+    // 发货
     $router->post('orders/{order}/ship', 'OrdersController@ship')->name('admin.orders.ship');
+
+    // 退款
+    $router->post('orders/{order}/refund', 'OrdersController@handleRefund')->name('admin.orders.handle_refund');
 
     // 优惠券
     $router->get('coupon_codes', 'CouponCodesController@index');
