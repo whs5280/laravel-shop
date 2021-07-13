@@ -31,6 +31,12 @@
 - 评价商品
 - 优惠券功能
 
+## 导出mysql
+
+```
+mysqldump -t laravel-shop admin_menu admin_permissions admin_role_menu admin_role_permissions admin_role_users admin_roles admin_user_permissions admin_users > database/admin.sql
+```
+
 ## 截图
 
 ![0](https://user-images.githubusercontent.com/324764/41385028-c1329666-6fab-11e8-8052-eb8d863cb766.png)
