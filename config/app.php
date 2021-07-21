@@ -232,4 +232,8 @@ return [
      */
     'order_ttl' => 1800,
 
+    /**
+     * 代理回调
+     */
+    'ngrok_url' => env('NGROK_URL'),
 ];
