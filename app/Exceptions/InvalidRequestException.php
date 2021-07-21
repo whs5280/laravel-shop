@@ -2,8 +2,8 @@
 
 namespace App\Exceptions;
 
-use App\Http\Requests\Request;
 use Exception;
+use Illuminate\Http\Request;
 
 class InvalidRequestException extends Exception
 {
